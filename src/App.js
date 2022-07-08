@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react';
+import './App.css'
+
+import HeaderComponent from './components/HeaderComponent/HeaderComponent'
+import FotterButton from './components/FooterComponent/FooterButton/FotterButtton';
+import MainComponent from './components/MainComponent/MainComponent';
+
 
 function App() {
-  return (
+  const [nick, setNick] = useState("");
+
+  const handleClick = (e) => {
+    setNick(e.nick)
+  }
+
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <HeaderComponent handleNick={nick}/>
       </header>
+      <main>
+        <MainComponent/>
+      </main>
+      <footer>
+        <FotterButton  handleClick={handleClick} />
+        <h3>footer</h3>
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,21 @@
+{
+  "walmart": [{
+    "id": 1,
+    "tresc": "Walmart Inc. (wcześniej: Wal-Mart Stores, Inc.) – amerykańska sieć supermarketów założona w 1962 roku przez Sama Waltona."
+  }, {
+    "id": 2,
+    "tresc": "W 2010 r. przedsiębiorstwo było największym na świecie sprzedawcą detalicznym (licząc obroty). Ma swoją siedzibę w Bentonville w stanie Arkansas w Stanach Zjednoczonych. W roku finansowym kończącym się 31 stycznia 2014 r. Wal-Mart zanotował czysty zysk 16,022 mld USD, przy obrotach 476,294 mld USD."
+  }, {
+    "id": 3,
+    "tresc": "Pierwszy sklep Wal-Marta został otwarty jako Wal-Mart Discount City w Rogers w Arkansas. W ciągu następnych 5 lat sieć rozrosła się do 24 punktów w całym stanie Arkansas. W 1968 r. firma otworzyła pierwsze sklepy poza rodzimym stanem, w Sikeston (Missouri) i Claremore (Oklahoma)."
+  }, {
+    "id": 4,
+    "tresc": "Powszechnie rozpoznawanymi sloganami sieci są: „Wal-Mart. Always Low Prices. Always.” (Zawsze niskie ceny. Zawsze.) oraz „Save Money. Live Better.” (Oszczędzaj pieniądze. Żyj lepiej.)."
+  }, {
+    "id": 5,
+    "tresc": "Przedsiębiorstwo jest największym prywatnym pracodawcą w USA, Meksyku i Kanadzie – w USA zatrudnia 1,4 mln osób, jest jednak silnie krytykowana za wyzysk pracowników – zaniżanie płac, zakaz zakładania związków zawodowych i ograniczenie ubezpieczeń zdrowotnych. Charakterystyczną cechą sieci Wal-Mart są bardzo niskie ceny produktów, co powoduje, że jest ona miejscem zaopatrzenia dla uboższych grup ludności."
+  }, {
+    "id": 6,
+    "tresc": "Największą zagraniczną operacją koncernu jest rozległa sieć supermarketów Asda w Wielkiej Brytanii, przejęta przez Wal-Mart w 1999 r."
+  }]
+}

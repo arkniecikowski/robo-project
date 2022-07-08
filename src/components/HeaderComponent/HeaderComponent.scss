@@ -1,0 +1,44 @@
+@import "./../../scss/mixins.scss";
+//First of all we import the mixins file we created above.
+
+
+.header-container {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  gap: 10px;
+  padding:30px;
+  background-color: black;
+  color: white;
+}
+
+.header-logo {
+
+}
+
+.header-nick {
+    text-align: center;
+}
+
+.header-text {
+  text-align: right; 
+  padding-right: 1em;
+  font-size: 30px;
+}
+
+// .-container {
+//   background-color:red;
+//   color: #333333;
+//   padding: 1em;
+
+//   // we use the variables that we have defined above.
+//   @include small-up {
+//     padding: 2em;
+//     background-color:green;
+//   }
+
+//   @include medium-up {
+
+//     background-color:blue;
+//     padding: 1em;
+//   }
+// }
